@@ -53,7 +53,18 @@ const projects = [
     ],
     github: "https://github.com/yadavkapil23/url-shortener-web-app.git",
     demo: "https://urlzap-c0dabcggbca5ftb0.centralindia-01.azurewebsites.net/"
-  }
+  },
+    {
+    title: "Quorix : Agent Orchestration System",
+    tech: ["LangChain", "FastAPI", "Agentic AI", "LangGraph", "OpenAI API"],
+    description: [
+      "Built a LangGraph-driven multi-agent orchestration system where specialized agents (Researcher, Coder, Tester, Critic ,  Synthesis) collaborate through loop control and shared state.",
+      "Implemented agent nodes as LangChain Runnable chains with structured outputs; added a final synthesis stage aggregating results into summaries, recommendations, and guides.",
+      "Optimized deployment using Docker."
+    ],
+    github: "https://github.com/yadavkapil23/Quorix-Agent.git",
+    demo: "https://quorix.onrender.com/"
+  },
 ];
 
 const Projects = () => (
