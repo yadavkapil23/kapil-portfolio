@@ -32,11 +32,14 @@ const Header = () => {
 
   return (
     <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white/80 backdrop-blur-md shadow-lg' : 'bg-transparent'
+      isScrolled ? 'bg-slate-900/90 backdrop-blur-md shadow-lg border-b border-slate-700' : 'bg-transparent'
     }`}>
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          {/* Logo/Title removed */}
+          {/* Logo/Title */}
+          <div className="text-white font-bold text-lg">
+            <span className="text-blue-400">K</span>apil
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
@@ -46,8 +49,8 @@ const Header = () => {
                 to={item.href}
                 className={`transition-colors duration-200 font-medium ${
                   isActive(item.href)
-                    ? 'text-purple-600'
-                    : 'text-gray-700 hover:text-orange-600'
+                    ? 'text-blue-400'
+                    : 'text-gray-300 hover:text-blue-400'
                 }`}
               >
                 {item.name}
@@ -57,7 +60,7 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-gray-700"
+            className="md:hidden text-gray-300 hover:text-white transition-colors duration-200"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -66,15 +69,15 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4">
+          <div className="md:hidden mt-4 pb-4 border-t border-slate-700">
             {navItems.map((item) => (
               <Link
                 key={item.name}
                 to={item.href}
                 className={`block py-2 transition-colors duration-200 ${
                   isActive(item.href)
-                    ? 'text-blue-600'
-                    : 'text-gray-700 hover:text-blue-600'
+                    ? 'text-blue-400'
+                    : 'text-gray-300 hover:text-blue-400'
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >

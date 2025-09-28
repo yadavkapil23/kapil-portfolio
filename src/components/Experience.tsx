@@ -31,7 +31,7 @@ const experiences = [
   {
     title: "Member",
     company: "GDG Gurugram",
-    duration: "Nov 2023 – Present (1 yr 9 mos)",
+    duration: "Nov 2023 – Present (1 yr 11 mos)",
     location: "Gurugram, Haryana, India – Remote",
     description: [
       "Active member of GDG Gurugram, engaging with a vibrant community of developers and tech enthusiasts.",
@@ -53,7 +53,7 @@ const experiences = [
   {
     title: "Member",
     company: "GDG New Delhi",
-    duration: "Jan 2024 – Present (1 yr 7 mos)",
+    duration: "Jan 2024 – Present (1 yr 9 mos)",
     location: "New Delhi, Delhi, India – Remote",
     description: [],
     skills: [],

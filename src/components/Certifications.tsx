@@ -3,6 +3,31 @@ import { BadgeCheck } from 'lucide-react';
 
 const certifications = [
   {
+    title: "Oracle Data Platform 2025 Certified Foundations Associate",
+    provider: "Oracle",
+    date: "Sept 2025",
+    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=1A6138C47969578C2BF7C9DEBC89AA3F7FE2AB9A44F7EF8C5A37C9C5DC3954E0"
+  },
+
+  {
+    title: " Oracle Cloud Infrastructure 2025 Certified Data Science Professional",
+    provider: "Oracle",
+    date: "Sept 2025",
+    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=1A6138C47969578C2BF7C9DEBC89AA3FD3B895747B5A50A0331A98E6CC843795"
+  },
+  {
+    title: "Big Data Foundations",
+    provider: "IBM",
+    date: "Aug 2025",
+    link: "https://www.credly.com/badges/df79b9a9-b8e7-47bc-bd6e-9c3d462d6860/public_url"
+  },
+  {
+    title: "Generative AI With Diffusion Models",
+    provider: "Amazon Web Services",
+    date: "Aug 2025",
+    link: "amazon.com"
+  },
+  {
     title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
     provider: "Oracle",
     date: "July 2025",
@@ -14,12 +39,15 @@ const certifications = [
     date: "July 2025",
     link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=8B35503E703130072AF3251695A24079BA4C6AA0BD32B731E2226438C569534E"
   },
+
   {
     title: "Getting Started with LLMs",
     provider: "Skillsoft",
     date: "May 2025",
     link: "https://skillsoft.digitalbadges.skillsoft.com/e52f8934-bf23-4f44-991a-8926dd11183a"
   },
+
+
   {
     title: "Introduction to Generative AI",
     provider: "Coursera",
